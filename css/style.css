@@ -12,7 +12,6 @@
 
 body {
    font-family: 'SF Pro Display', sans-serif;
-   color: #000;
 }
 
 a {
@@ -238,7 +237,7 @@ a {
    font-weight: 600;
    font-size: 16px;
    line-height: 19px;
-   letter-spacing: 3px;
+   letter-spacing: 7px;
    color: #0077C0;
    text-align: center;
 }
@@ -397,13 +396,23 @@ a {
       margin-bottom: 40px;
    }
 
+   .hero-title {
+      margin-top: 70px;
+      font-size: 41px;
+   }
+
    .socials {
       display: none;
+   }
+
+   .feature-second {
+      font-size: 32px;
    }
 
    .feature__item {
       display: grid;
       justify-content: center;
+      margin-top: 0px;
    }
 
    .feature__items {
@@ -419,6 +428,11 @@ a {
       margin: auto;
    }
 
+   .tutorial-title {
+      margin-top: 0px;
+      font-size: 36px;
+   }
+
    .explore__inner img {
       display: none;
    }
@@ -427,8 +441,21 @@ a {
       justify-content: center;
    }
 
+   .explore-title {
+      font-size: 34px;
+      margin-top: 0px;
+   }
+
+   .testimonial-second {
+      font-size: 31px;
+   }
+
    .cta__inner {
-      height: 500px;
+      height: 400px;
+   }
+
+   .cta-second {
+      font-size: 34px;
    }
 
    .footer__inner {
